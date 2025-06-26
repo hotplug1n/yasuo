@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- ANIMAÇÃO DE FADE-IN AO SCROLLAR ---
+
     const fadeInElements = document.querySelectorAll('.fade-in');
 
     const observerOptions = {
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- BOTÃO VOLTAR AO TOPO ---
+
     const backToTopButton = document.querySelector('.back-to-top');
 
     window.addEventListener('scroll', () => {
